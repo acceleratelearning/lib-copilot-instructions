@@ -1,1 +1,3 @@
-## Instructions for NodeJs
+## Technology Stack
+- NodeJS 24.x
+- Typescript
