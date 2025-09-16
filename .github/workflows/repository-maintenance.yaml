@@ -1,0 +1,19 @@
+name: Repository Maintenance
+
+on:
+  schedule:
+    - cron: "0 13 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - .ali
+      - .github/workflows/**
+      - docs/**
+
+jobs:
+  repository-maintenance:
+    name: Repository Maintenance
+    uses: acceleratelearning/workflow-repository-maintenance/.github/workflows/shared-workflow.yaml@v1
+  
