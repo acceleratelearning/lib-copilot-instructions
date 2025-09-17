@@ -1,6 +1,0 @@
-{
-  "devDependencies": {
-    "@acceleratelearning/npm-nx-ali-repository-maintenance": "^0.0.6",
-    "nx": "21.5.2"
-  }
-}
