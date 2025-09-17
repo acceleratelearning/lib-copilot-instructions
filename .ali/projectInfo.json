@@ -2,10 +2,7 @@
   "partOf": "ali-platform",
   "applicationName": "testy-mc-testy-repo",
   "description": "A demo application repository managed by ali-github",
-  "features": {
-    "pulumi": true,
-    "argoCd": true
-  },
+  "features": {},
   "gitHubRepositoryName": "platform-ali-platform-testy-mc-testy-repo",
   "gitHubOwner": "acceleratelearning",
   "permissionSets": [
@@ -20,30 +17,5 @@
   "teamLeadsTeams": [
     "cloud-engineering-leads"
   ],
-  "containerRepos": [
-    {
-      "containerNames": [
-        "ali-platform/testy-mc-testy-repo-service"
-      ],
-      "gitHubRepositoryName": "container-ali-platform-testy-mc-testy-repo-service",
-      "iamRoleArn": "arn:aws:iam::669462986110:role/ghr-container-ali-platform-testy-mc-testy-repo-service",
-      "branches": [
-        "dev",
-        "release",
-        "main"
-      ]
-    },
-    {
-      "containerNames": [
-        "ali-platform/testy-mc-testy-repo-workflow"
-      ],
-      "gitHubRepositoryName": "container-ali-platform-testy-mc-testy-repo-workflow",
-      "iamRoleArn": "arn:aws:iam::669462986110:role/ghr-container-ali-platform-testy-mc-testy-repo-workflow",
-      "branches": [
-        "dev",
-        "release",
-        "main"
-      ]
-    }
-  ]
+  "containerRepos": []
 }
