@@ -1,14 +1,11 @@
 {
-  "partOf": "ali-platform",
-  "applicationName": "testy-mc-testy-repo",
-  "description": "A demo application repository managed by ali-github",
+  "partOf": "acceleratelearning",
+  "applicationName": "lib-copilot-instructions",
+  "description": "A library of CoPilot instruction files to be shared across the enterprise",
   "features": {},
-  "gitHubRepositoryName": "platform-ali-platform-testy-mc-testy-repo",
+  "gitHubRepositoryName": "platform-acceleratelearning-lib-copilot-instructions",
   "gitHubOwner": "acceleratelearning",
-  "permissionSets": [
-    "certificate-builder",
-    "cloud-front-builder"
-  ],
+  "permissionSets": [],
   "topics": [],
   "stacks": [],
   "developersTeams": [
