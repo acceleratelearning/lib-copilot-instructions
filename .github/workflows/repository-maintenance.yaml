@@ -8,9 +8,10 @@ on:
     branches:
       - main
     paths:
-      - .ali
-      - .github/workflows/**
+      - .ali/**
       - docs/**
+      - action.yml
+      - .github/workflows/shared-workflow.yaml
 
 jobs:
   repository-maintenance:
