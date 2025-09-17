@@ -1,3 +1,4 @@
+# This workflow is managed by Pulumi.  Any changes made to this file will be overwritten.
 name: Repository Maintenance
 
 on:
