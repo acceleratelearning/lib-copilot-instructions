@@ -17,7 +17,7 @@ on:
 jobs:
   repository-maintenance:
     name: Repository Maintenance
-    uses: acceleratelearning/workflow-repository-maintenance/.github/workflows/shared-workflow.yaml@v1
+    uses: acceleratelearning/workflow-repository-maintenance/.github/workflows/shared-updates.yaml@v1
     with:
       github-app-id: ${{ vars.ALI_REPOSITORY_MAINTENANCE_APP_ID }}
     secrets:
