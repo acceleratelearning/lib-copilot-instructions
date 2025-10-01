@@ -1,6 +1,7 @@
 {
   "partOf": "acceleratelearning",
   "applicationName": "lib-copilot-instructions",
+  "displayName": "CoPilot Instructions",
   "description": "A library of CoPilot instruction files to be shared across the enterprise",
   "features": {},
   "gitHubRepositoryName": "platform-acceleratelearning-lib-copilot-instructions",
