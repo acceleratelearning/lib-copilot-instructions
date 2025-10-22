@@ -16,5 +16,8 @@
   "teamLeadsTeams": [
     "cloud-engineering-leads"
   ],
+  "adminTeams": [
+    "cloud-engineering-admins"
+  ],
   "containerRepos": []
 }
