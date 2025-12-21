@@ -9,7 +9,7 @@ on:
     branches:
       - main
     paths:
-      - .ali/**
+      - .ali/projectInfo.json
       - docs/**
       - action.yml
       - .github/workflows/shared-workflow.yaml
