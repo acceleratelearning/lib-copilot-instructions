@@ -1,0 +1,49 @@
+{
+  "partOf": "acceleratelearning",
+  "applicationName": "lib-copilot-instructions",
+  "displayName": "CoPilot Instructions",
+  "description": "A library of CoPilot instruction files to be shared across the enterprise",
+  "features": {},
+  "gitHubRepositoryName": "platform-acceleratelearning-lib-copilot-instructions",
+  "gitHubOwner": "acceleratelearning",
+  "gitHubRepositoryUrl": "https://github.com/acceleratelearning/platform-acceleratelearning-lib-copilot-instructions.git",
+  "permissionSets": [],
+  "topics": [],
+  "stacks": [],
+  "developersTeams": [
+    "cloud-engineering"
+  ],
+  "teamLeadsTeams": [
+    "cloud-engineering-leads"
+  ],
+  "adminTeams": [
+    "cloud-engineering-admins"
+  ],
+  "containerRepos": [],
+  "generatedFiles": [
+    {
+      "generatorName": "@acceleratelearning/npm-nx-ali-repository-maintenance:readme",
+      "markerFiles": [
+        "docs/README.template.md"
+      ],
+      "generatedFolders": [
+        {
+          "sourceFolder": "docs",
+          "codeType": "markdown"
+        }
+      ]
+    },
+    {
+      "generatorName": "@acceleratelearning/npm-nx-ali-repository-maintenance:copilot",
+      "markerFiles": [
+        "docs/copilot-instructions.template.md"
+      ],
+      "generatedFolders": [
+        {
+          "sourceFolder": "docs",
+          "codeType": "markdown"
+        }
+      ]
+    }
+  ]
+}
