@@ -23,7 +23,7 @@
   "containerRepos": [],
   "generatedFiles": [
     {
-      "generatorName": "@acceleratelearning/npm-nx-ali-repository-maintenance:readme",
+      "generatorName": "@acceleratelearning/nx-generators:readme",
       "markerFiles": [
         "docs/README.template.md"
       ],
@@ -35,7 +35,7 @@
       ]
     },
     {
-      "generatorName": "@acceleratelearning/npm-nx-ali-repository-maintenance:copilot",
+      "generatorName": "@acceleratelearning/nx-generators:copilot",
       "markerFiles": [
         "docs/copilot-instructions.template.md"
       ],
