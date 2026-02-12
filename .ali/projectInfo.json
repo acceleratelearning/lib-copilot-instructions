@@ -56,6 +56,28 @@
       "markerFiles": [
         "nx.json"
       ]
+    },
+    {
+      "generatorName": "@acceleratelearning/nx-generators:readme",
+      "command": "nx g @acceleratelearning/nx-generators:readme",
+      "args": {},
+      "dependencies": [
+        "@acceleratelearning/nx-generators:nx-workspace"
+      ],
+      "markerFiles": [
+        "docs/README.template.md"
+      ]
+    },
+    {
+      "generatorName": "@acceleratelearning/nx-generators:copilot",
+      "command": "nx g @acceleratelearning/nx-generators:copilot",
+      "args": {},
+      "dependencies": [
+        "@acceleratelearning/nx-generators:nx-workspace"
+      ],
+      "markerFiles": [
+        "docs/copilot-instructions.template.md"
+      ]
     }
   ]
 }
