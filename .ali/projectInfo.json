@@ -46,5 +46,17 @@
         }
       ]
     }
+  ],
+  "generators": [
+    {
+      "generatorName": "@acceleratelearning/nx-generators:nx-workspace",
+      "command": "nx g @acceleratelearning/nx-generators:nx-workspace",
+      "args": {},
+      "dependencies": [],
+      "markerFiles": [
+        "nx.json",
+        "tsconfig.base.json"
+      ]
+    }
   ]
 }
