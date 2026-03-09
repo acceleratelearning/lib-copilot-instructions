@@ -12,12 +12,13 @@
   "topics": [],
   "stacks": [],
   "developersTeams": [
-    "cloud-engineering"
-  ],
-  "teamLeadsTeams": [
     "cloud-engineering-leads"
   ],
+  "teamLeadsTeams": [
+    "cloud-engineering-leads-leads"
+  ],
   "adminTeams": [
+    "cloud-engineering-leads-admins",
     "cloud-engineering-admins"
   ],
   "containerRepos": [],
