@@ -15,10 +15,10 @@
     "cloud-engineering-leads"
   ],
   "teamLeadsTeams": [
-    "cloud-engineering-leads-leads"
+    "cloud-engineering-leads"
   ],
   "adminTeams": [
-    "cloud-engineering-leads-admins",
+    "cloud-engineering-leads",
     "cloud-engineering-admins"
   ],
   "containerRepos": [],
