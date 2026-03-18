@@ -2,17 +2,13 @@
 name: Repository Maintenance
 
 on:
-  schedule:
-    - cron: "0 13 * * 1"
   workflow_dispatch:
   push:
     branches:
       - main
     paths:
       - .ali/projectInfo.json
-      - docs/**
-      - action.yml
-      - .github/workflows/shared-workflow.yaml
+      - .github/workflows/repository-maintenance.yaml
 
 jobs:
   repository-maintenance:
