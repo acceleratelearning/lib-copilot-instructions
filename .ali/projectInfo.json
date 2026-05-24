@@ -1,27 +1,28 @@
 {
-  "partOf": "acceleratelearning",
-  "applicationName": "lib-copilot-instructions",
-  "displayName": "CoPilot Instructions",
-  "fullName": "acceleratelearning-lib-copilot-instructions",
-  "description": "A library of CoPilot instruction files to be shared across the enterprise",
-  "features": {},
-  "gitHubRepositoryName": "platform-acceleratelearning-lib-copilot-instructions",
+  "repositoryType": "github",
+  "visibility": "internal",
+  "partOf": "shared",
+  "gitHubRepositoryName": "lib-copilot-instructions",
   "gitHubOwner": "acceleratelearning",
-  "gitHubRepositoryUrl": "https://github.com/acceleratelearning/platform-acceleratelearning-lib-copilot-instructions.git",
-  "permissionSets": [],
-  "topics": [],
-  "stacks": [],
-  "developersTeams": [
-    "cloud-engineering-leads"
-  ],
-  "teamLeadsTeams": [
+  "gitHubRepositoryUrl": "https://github.com/acceleratelearning/lib-copilot-instructions.git",
+  "developerTeams": [],
+  "teamLeadTeams": [
     "cloud-engineering-leads"
   ],
   "adminTeams": [
-    "cloud-engineering-leads",
     "cloud-engineering-admins"
   ],
-  "containerRepos": [],
-  "generatedFiles": [],
-  "generators": []
+  "branches": [
+    {
+      "branchName": "main"
+    }
+  ],
+  "defaultBranchName": "main",
+  "topics": [],
+  "allowActionWorkflowAccess": false,
+  "allowDelete": false,
+  "iamRoles": {
+    "permissionSets": [],
+    "roles": []
+  }
 }
