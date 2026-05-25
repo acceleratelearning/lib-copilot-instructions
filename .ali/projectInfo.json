@@ -1,6 +1,6 @@
 {
   "repositoryType": "github",
-  "visibility": "internal",
+  "visibility": "public",
   "partOf": "shared",
   "gitHubRepositoryName": "lib-copilot-instructions",
   "gitHubOwner": "acceleratelearning",
