@@ -21,6 +21,8 @@
   "topics": [],
   "allowActionWorkflowAccess": false,
   "allowDelete": false,
+  "allowMergeCommit": false,
+  "deleteBranchOnMerge": true,
   "iamRoles": {
     "permissionSets": [],
     "roles": []
