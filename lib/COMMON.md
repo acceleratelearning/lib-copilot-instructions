@@ -26,3 +26,9 @@
 - Update documentation if your changes affect user-facing behavior
 - Keep commits atomic and well-described
 - Run `pnpm run all` before submitting to catch issues early
+
+## Platform Context
+
+- Before answering architecture, service-boundary, or cross-service questions, consult the shared platform map: `ali-platform/context`. Start at `architecture/system-overview.md`; per-service detail is in `services/<name>.md`; terms and acronyms are in `glossary.md`.
+- For One Platform (1p) conceptual diagrams, see `ali-one-platform/one-platform-architecture`. The per-service scaffold lives in `ali-one-platform/platform-one-platform-reference` (Pulumi IaC) and `ali-one-platform/container-one-platform-reference-api` (app source).
+- Prefer these as sources of truth over assumptions. If the map and the code disagree, trust the code and flag the drift.
